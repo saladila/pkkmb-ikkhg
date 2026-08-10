@@ -87,7 +87,15 @@ function Navbar() {
               {item.label}
             </Link>
           ))}
-        </div>
+
+          <Link
+            to="/hub"
+            onClick={() => setOpen(false)}
+            className="block text-center rounded-xl bg-gradient-brand px-4 py-3 text-sm font-semibold text-primary-foreground shadow-soft mt-2"
+          >
+            Hubungi Kami
+          </Link>
+              </div>
       )}
     </header>
   );
@@ -99,9 +107,11 @@ function Footer() {
       <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 md:grid-cols-3">
         <div>
           <div className="flex items-center gap-3">
-            <span className="grid h-10 w-10 place-items-center rounded-2xl bg-gradient-brand text-sm font-bold text-primary-foreground">
-              IK
-            </span>
+            <img 
+              src="/logo.jpg" 
+              alt="Logo PKKMB" 
+              className="h-10 w-10 object-contain rounded-xl"
+            />
             <span className="text-sm font-bold">PKKMB IKKHG 2026</span>
           </div>
           <p className="mt-4 max-w-xs text-sm text-muted-foreground">
@@ -130,7 +140,7 @@ function Footer() {
               <Instagram className="h-4 w-4" /> @pkkmbikkhg
             </li>
             <li className="flex items-center gap-2">
-              <MessageCircle className="h-4 w-4" /> +62 812-0000-2026
+              <MessageCircle className="h-4 w-4" /> 0896-2128-9635
             </li>
           </ul>
         </div>

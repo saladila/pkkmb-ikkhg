@@ -35,28 +35,27 @@ const RULES = [
 
 const DRESS = [
   {
-    title: "PKKMB Institut",
+    title: "HARI PERTAMA: RABU, 19 AGUSTUS 2026",
     items: [
-      "Kemeja putih lengan panjang",
-      "Celana atau rok bahan hitam (bukan jeans)",
+      "Kemeja putih lengan Baju kemeja putih lengan panjang",
+      "Bawahan celana panjang hitam (bahan) dan perempuan memakai Rok hitam",
       "Sepatu hitam & kaos kaki putih",
       "Rambut rapi, tidak diwarnai, kerudung hitam polos (bagi yang berhijab)",
     ],
   },
   {
-    title: "PKKMB FIKES",
+    title: "HARI KEDUA: KAMIS, 20 AGUSTUS 2026",
     items: [
-      "Kaos PKKMB",
-      "Celana atau Rok bahan hitam di bawah lutut",
+      "Pakaian seragam SMA/SMK/MA masing-masing sesuai asal sekolah",
       "Sepatu hitam & kaos kaki putih",
       "Rambut rapi, tidak diwarnai, Kerudung putih polos (bagi yang berhijab)",
     ],
   },
   {
-    title: "PKKMB FIKK",
+    title: "HARI KETIGA: JUM'AT, 21 AGUSTUS 2026",
     items: [
-      "Kaos PKKMB",
-      "Celana atau Rok bahan hitam di bawah lutut",
+      "Kaos Baju PKKMB IKKHG 2026",
+      "Bawahan celana panjang hitam (bahan) dan perempuan memakai Rok hitam",
       "Sepatu hitam & kaos kaki putih",
       "Rambut rapi, tidak diwarnai, Kerudung putih polos (bagi yang berhijab)",
     ],

@@ -50,28 +50,28 @@ const TIMELINE = [
     tag: "Tahap 1",
     title: "Pra-PKKMB",
     date: "18 Agustus 2026",
-    desc: "Registrasi ulang, pembagian kelompok, technical meeting, dan penugasan awal mahasiswa baru.",
+    desc: "Pengarahan & Persiapan PKKMB.",
   },
   {
     icon: Building2,
     tag: "Tahap 2",
-    title: "PKKMB Institut",
+    title: "PKKMB HARI PERTAMA",
     date: "19 Agustus 2026",
-    desc: "Sidang Terbuka PKKMB, Pengenalan visi misi institut dan Yayasan DHIG, sistem akademik, Materi oleh Pakar, Telling Story Alumni IKKHG.",
+    desc: "Sidang Terbuka PKKMB, Pengenalan Institusi dan Yayasan DHIG, Sistem akademik, Materi oleh Pakar.",
   },
   {
     icon: GraduationCap,
     tag: "Tahap 3",
-    title: "PKKMB Fakultas",
+    title: "PKKMB HARI KEDUA",
     date: "20 Agustus 2026",
-    desc: "Tour Kampus, Pengenalan Fakultas (FIKES), laboratorium, layanan kemahasiswaan, Ormawa & BEM.",
+    desc: "Tour Kampus, Pengenalan Fakultas (FIKES & FIKK), laboratorium, layanan kemahasiswaan, Organisasi Kesehatan, Telling Story Alumni, Ormawa & BEM.",
   },
   {
     icon: Flag,
     tag: "Tahap 4",
-    title: "PKKMB Fakultas",
+    title: "PKKMB HARI KETIGA",
     date: "21 Agustus 2026",
-    desc: "Tour Kampus, Pengenalan Fakultas (FIKK), Penguatan karakter (ESQ), Penutupan.",
+    desc: "Olahraga, Dinamika Kelompok & games, Orasi UKM, Penguatan karakter (ESQ), Penutupan.",
   },
 ];
 
@@ -129,7 +129,7 @@ function Countdown() {
       {units.map((u) => (
         <div
           key={u.label}
-          className="rounded-2xl border border-white/80 bg-white/80 px-6 py-5 text-center backdrop-blur-md"
+          className="aspect-square rounded-2xl border border-white/80 bg-white/80 px-6 py-5 text-center backdrop-blur-md"
         >
           <div className="text-4xl font-extrabold tabular-nums sm:text-3xl">
             {String(u.value).padStart(2, "0")}
@@ -275,8 +275,8 @@ function Index() {
 
         <div className="relative mx-auto flex w-full max-w-6xl flex-col items-center px-5 pb-24 pt-36 text-center">
           <div className="mx-auto max-w-4xl">
-            <span className="inline-flex items-center gap-2 rounded-full border border-blue/25 bg-blue/10 px-4 py-1.5 text-xl font-medium backdrop-blur-md text-[#A0522D]">
-              <Sparkles className="h-3.5 w-3.5" /> Institut Kesehatan Karsa Husada Garut
+            <span className="inline-flex items-center gap-2 rounded-full border border-blue/25 bg-blue/10 px-3 py-1 text-xs sm:text-sm md:text-base font-medium backdrop-blur-md text-[#A0522D] max-w-full text-center">
+              <Sparkles className="h-3.5 w-3.5 sm:w-3.5 shrink-0" /> Institut Kesehatan Karsa Husada Garut
             </span>
 
             <h1 className="mt-6 text-5xl font-extrabold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">

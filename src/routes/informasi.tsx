@@ -48,6 +48,7 @@ const DRESS = [
     items: [
       "Pakaian seragam SMA/SMK/MA masing-masing sesuai asal sekolah",
       "Sepatu hitam & kaos kaki putih",
+      "Rambut rapi, tidak diwarnai",
     ],
   },
   {

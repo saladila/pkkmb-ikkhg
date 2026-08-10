@@ -37,7 +37,7 @@ const DRESS = [
   {
     title: "HARI PERTAMA: RABU, 19 AGUSTUS 2026",
     items: [
-      "Kemeja putih lengan Baju kemeja putih lengan panjang",
+      "Kemeja putih lengan panjang",
       "Bawahan celana panjang hitam (bahan) dan perempuan memakai Rok hitam",
       "Sepatu hitam & kaos kaki putih",
       "Rambut rapi, tidak diwarnai, kerudung hitam polos (bagi yang berhijab)",
@@ -48,7 +48,6 @@ const DRESS = [
     items: [
       "Pakaian seragam SMA/SMK/MA masing-masing sesuai asal sekolah",
       "Sepatu hitam & kaos kaki putih",
-      "Rambut rapi, tidak diwarnai, Kerudung putih polos (bagi yang berhijab)",
     ],
   },
   {
@@ -57,7 +56,7 @@ const DRESS = [
       "Kaos Baju PKKMB IKKHG 2026",
       "Bawahan celana panjang hitam (bahan) dan perempuan memakai Rok hitam",
       "Sepatu hitam & kaos kaki putih",
-      "Rambut rapi, tidak diwarnai, Kerudung putih polos (bagi yang berhijab)",
+      "Rambut rapi, tidak diwarnai, Kerudung hitam polos (bagi yang berhijab)",
     ],
   },
 ];

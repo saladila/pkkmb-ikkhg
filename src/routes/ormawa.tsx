@@ -2,6 +2,21 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout, PageHeader } from "@/components/SiteLayout";
 import { Reveal } from "@/components/Reveal";
 
+import bemIkkhg from "@/assets/bem-ikkhg.jpg";
+import formaKep from "@/assets/forma-kep.jpg";
+import kemaPerawat from "@/assets/kema-perawat.jpg";
+import himaTlm from "@/assets/hima-tlm.jpg";
+import himaFarmasi from "@/assets/hima-farmasi.jpg";
+import himaBidan from "@/assets/hima-bidan.jpg";
+import ksr from "@/assets/ksr.jpg";
+import upm from "@/assets/upm-ikkhg.jpg";
+import ldk from "@/assets/ldk.jpg";
+import forumIlmiah from "@/assets/forumilmiah.jpg";
+import volly from "@/assets/voley-ball.jpg";
+import badminton from "@/assets/badminton.jpg";
+import tenisMeja from "@/assets/tenis-meja.jpg";
+import limpa from "@/assets/limpa.jpg";
+
 export const Route = createFileRoute("/ormawa")({
   head: () => ({
     meta: [
@@ -26,97 +41,97 @@ export const Route = createFileRoute("/ormawa")({
 const ORGS = [
   { name: "BEM IKKHG", 
     initial: "BEM", 
-    logo: "/src/assets/bem-ikkhg.jpg",
+    logo: bemIkkhg,
     type: "Ormawa",
     desc: "Badan Eksekutif Mahasiswa, motor utama kegiatan dan advokasi mahasiswa tingkat institusi." 
   },
   { name: "BEM FIKES", 
     initial: "DPM",
-    logo: "/src/assets/bem-ikkhg.jpg",
+    logo: bemIkkhg,
     type: "Ormawa", 
     desc: "Badan Eksekutif Mahasiswa, motor utama kegiatan dan advokasi mahasiswa tingkat fakultas."
   },
   { name: "BEM FIKK", 
     initial: "DPM", 
-    logo: "/src/assets/bem-ikkhg.jpg",
+    logo: bemIkkhg,
     type: "Ormawa", 
     desc: "Badan Eksekutif Mahasiswa, motor utama kegiatan dan advokasi mahasiswa tingkat fakultas." 
   },
   { name: "FORMA Keperawatan", 
     initial: "HMK", 
-    logo: "/src/assets/forma-kep.jpg",
+    logo: formaKep,
     type: "Himpunan", 
     desc: "Forum Mahasiswa Keperawatan."
    },
   { name: "KEMA Keperawatan", 
     initial: "HMB", 
-    logo: "/src/assets/kema-perawat.jpg",
+    logo: kemaPerawat,
     type: "Himpunan", 
     desc: "Keluarga Mahasiswa Keperawatan."
   },
   { name: "HIMA TLM", 
     initial: "SEN", 
-    logo: "/src/assets/hima-tlm.jpg",
+    logo: himaTlm,
     type: "UKM", 
     desc: "Himpunan Mahasiswa Teknologi Laboratorium Medis" 
   },
   { name: "HIMA FARMASI", 
     initial: "OR", 
-    logo: "/src/assets/hima-farmasi.jpg",
+    logo: himaFarmasi,
     type: "UKM", 
     desc: "Himpunan Mahasiswa Farmasi." 
   },
   { name: "HIMA KEBIDANAN", 
     initial: "OR", 
-    logo: "/src/assets/hima-bidan.jpg",
+    logo: himaBidan,
     type: "UKM", 
     desc: "Himpunan Mahasiswa Kebidanan." 
   },
   { name: "UKM KSR / PMI", 
-    initial: "KSR", 
+    initial: ksr, 
     logo: "/src/assets/ksr.jpg",
     type: "UKM", 
     desc: "Korps Sukarela: kesiapsiagaan bencana dan donor darah."
   },
   { name: "UKM UPM", 
     initial: "PRA", 
-    logo: "/src/assets/upm-ikkhg.jpg",
+    logo: upm,
     type: "UKM", 
     desc: "Racana kampus, kepemimpinan, dan pengabdian masyarakat." 
   },
   { name: "UKM LDK Tarbiyatul Insani", 
     initial: "ROH", 
-    logo: "/src/assets/ldk.jpg",
+    logo: ldk,
     type: "UKM", 
     desc: "Kajian keislaman, kajian rutin, dan kegiatan sosial keagamaan."
   },
   { name: "Forum Ilmiah Mahasiswa ", 
     initial: "UKM", 
-    logo: "/src/assets/forumilmiah.jpg",
+    logo: forumIlmiah,
     type: "UKM", 
     desc: "Forum Ilmiah Mahasiswa" 
   },
   { name: "UKM Volly", 
     initial: "PRA",
-    logo: "/src/assets/voley-ball.jpg", 
+    logo: volly, 
     type: "UKM", 
     desc: "Unit kegitan mahasiswa bola volly" 
   },
   { name: "UKM Badminton", 
     initial: "PRA", 
-    logo: "/src/assets/badminton.jpg",
+    logo: badminton,
     type: "UKM", 
     desc: "Unit kegitan mahasiswa badminton" 
   },
   { name: "UKM Tenis Meja", 
     initial: "PRA", 
-    logo: "/src/assets/tenis-meja.jpg",
+    logo: tenisMeja,
     type: "UKM", 
     desc: "Unit kegitan mahasiswa tenis meja" 
   },
   { name: "UKM LIMPA", 
     initial: "PRA", 
-    logo: "/src/assets/limpa.jpg",
+    logo: limpa,
     type: "UKM", 
     desc: "Unit kegitan mahasiswa pecinta alam" 
   },

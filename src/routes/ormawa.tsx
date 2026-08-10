@@ -89,7 +89,7 @@ const ORGS = [
   },
   { name: "UKM KSR / PMI", 
     initial: ksr, 
-    logo: "/src/assets/ksr.jpg",
+    logo: ksr,
     type: "UKM", 
     desc: "Korps Sukarela: kesiapsiagaan bencana dan donor darah."
   },

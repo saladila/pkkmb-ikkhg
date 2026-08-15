@@ -57,7 +57,7 @@ const TIMELINE = [
     tag: "Tahap 2",
     title: "PKKMB HARI PERTAMA",
     date: "19 Agustus 2026",
-    desc: "Upacara Pembukaan PKKMB, Pengenalan Institusi dan Yayasan DHIG, Sistem akademik, Materi oleh Pakar.",
+    desc: "Sidang Terbuka Senat Akademik, Pengenalan Institusi dan Yayasan DHIG, Sistem akademik, Materi oleh Pakar.",
   },
   {
     icon: GraduationCap,
@@ -71,7 +71,7 @@ const TIMELINE = [
     tag: "Tahap 4",
     title: "PKKMB HARI KETIGA",
     date: "21 Agustus 2026",
-    desc: "Jalan santai & carnaval, Dinamika Kelompok & games, Sosialisasi Bahasa Asing, Orasi UKM, Penguatan karakter (ESQ), Penutupan.",
+    desc: "Jalan santai & carnaval, Sosialisasi Peminatan Kursus Bahasa Jepang, Orasi UKM, Penguatan karakter (ESQ), Penutupan.",
   },
 ];
 
@@ -242,7 +242,7 @@ function RectorSpeechModal() {
                 className="h-16 w-16 rounded-2xl object-cover"
               />
               <div>
-                <p className="font-bold">Dr. H. Rector Name, M.Kes.</p>
+                <p className="font-bold">Dr. Iwan Wahyudi, S.Kep., Ners., M.Kep.</p>
                 <p className="text-sm text-muted-foreground">Rektor Institut Kesehatan Karsa Husada Garut</p>
               </div>
             </div>
@@ -344,7 +344,7 @@ function Index() {
             <div className="mt-8 grid grid-cols-3 gap-4">
               {[
                 { k: "4", v: "Rangkaian Acara" },
-                { k: "500+", v: "Mahasiswa Baru" },
+                { k: "600+", v: "Mahasiswa Baru" },
                 { k: "10+", v: "Ormawa & UKM" },
               ].map((s) => (
                 <div key={s.v} className="rounded-2xl bg-surface p-4 text-center">

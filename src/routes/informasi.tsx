@@ -60,7 +60,7 @@ const RULES = [
   "Mengikuti seluruh rangkaian acara dari awal hingga akhir.",
   "Memakai dresscode sesuai dengan ketentuan.",
   "Menjaga 3S (Senyum, salam, sapa) kepada panitia, dosen, dan sesama peserta.",
-  "Dilarang membawa rokok, senjata tajam, dan barang berharga berlebihan.",
+  "Dilarang membawa rokok, narkotika, senjata tajam, dan barang berharga berlebihan.",
   "Izin tidak hadir wajib disertai surat keterangan resmi kepada panitia.",
 ];
 
@@ -70,17 +70,17 @@ const RULES = [
 
 const DRESS = [
   {
-    title: "HARI PERTAMA: RABU, 19 AGUSTUS 2026",
+    title: "PRA-PKKMB & HARI PERTAMA: RABU, 19 AGUSTUS 2026",
 
     items: [
-       "Kemeja putih lengan panjang",
-        "Putra memakai celana panjang hitam (bahan) dan putri memakai rok hitam",
+        "Kemeja putih lengan panjang",
+        "Putra memakai celana panjang hitam (bahan kain) dan putri memakai rok hitam",
         "Sepatu pantofel hitam & kaos kaki putih",
         "Rambut rapi, tidak diwarnai, kerudung putih polos (bagi yang berhijab)",
     ],
 
     description:
-      "Ketentuan Berpakaian dan atribut yang dikenakan pada hari pertama PKKMB. Rabu, 19 Agustus 2026.",
+      "Ketentuan Berpakaian dan atribut yang dikenakan pada pra-PKKMB & hari pertama PKKMB. 18-19 Agustus 2026.",
 
     image: hari1,
   },
@@ -96,7 +96,7 @@ const DRESS = [
     ],
 
     description:
-      "Ketentuan Berpakaian dan atribut yang dikenakan pada hari pertama PKKMB. Kamis, 20 Agustus 2026.",
+      "Ketentuan Berpakaian dan atribut yang dikenakan pada hari kedua PKKMB. Kamis, 20 Agustus 2026.",
 
     image: hari2,
   },
@@ -112,7 +112,7 @@ const DRESS = [
     ],
 
     description:
-      "Ketentuan Berpakaian dan atribut yang dikenakan pada hari pertama PKKMB. Jum'at, 21 Agustus 2026.",
+      "Ketentuan Berpakaian dan atribut yang dikenakan pada hari ketiga PKKMB. Jum'at, 21 Agustus 2026.",
 
     image: hari3,
   },

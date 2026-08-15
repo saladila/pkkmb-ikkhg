@@ -57,21 +57,21 @@ const TIMELINE = [
     tag: "Tahap 2",
     title: "PKKMB HARI PERTAMA",
     date: "19 Agustus 2026",
-    desc: "Sidang Terbuka PKKMB, Pengenalan Institusi dan Yayasan DHIG, Sistem akademik, Materi oleh Pakar.",
+    desc: "Upacara Pembukaan PKKMB, Pengenalan Institusi dan Yayasan DHIG, Sistem akademik, Materi oleh Pakar.",
   },
   {
     icon: GraduationCap,
     tag: "Tahap 3",
     title: "PKKMB HARI KEDUA",
     date: "20 Agustus 2026",
-    desc: "Tour Kampus, Pengenalan Fakultas (FIKES & FIKK), laboratorium, layanan kemahasiswaan, Organisasi Kesehatan, Telling Story Alumni, Ormawa & BEM.",
+    desc: "Tour Kampus, Pengenalan Fakultas (FIKES & FIKK), layanan kemahasiswaan, Organisasi Profesi Kesehatan, Telling Story Alumni, Pengenalan Ormawa & BEM.",
   },
   {
     icon: Flag,
     tag: "Tahap 4",
     title: "PKKMB HARI KETIGA",
     date: "21 Agustus 2026",
-    desc: "Olahraga, Dinamika Kelompok & games, Orasi UKM, Penguatan karakter (ESQ), Penutupan.",
+    desc: "Jalan santai & carnaval, Dinamika Kelompok & games, Sosialisasi Bahasa Asing, Orasi UKM, Penguatan karakter (ESQ), Penutupan.",
   },
 ];
 

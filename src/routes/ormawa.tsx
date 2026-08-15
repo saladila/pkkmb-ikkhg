@@ -4,7 +4,6 @@ import { Reveal } from "@/components/Reveal";
 
 import bemIkkhg from "@/assets/bem-ikkhg.jpg";
 import formaKep from "@/assets/forma-kep.jpg";
-import kemaPerawat from "@/assets/kema-perawat.jpg";
 import himaTlm from "@/assets/hima-tlm.jpg";
 import himaFarmasi from "@/assets/hima-farmasi.jpg";
 import himaBidan from "@/assets/hima-bidan.jpg";
@@ -16,6 +15,10 @@ import volly from "@/assets/voley-ball.jpg";
 import badminton from "@/assets/badminton.jpg";
 import tenisMeja from "@/assets/tenis-meja.jpg";
 import limpa from "@/assets/limpa.jpg";
+import basket from "@/assets/basket.png";
+import futsal from "@/assets/futsal.png";
+import muaythai from "@/assets/muaythai.png";
+import protokoler from "@/assets/protokoler.png";
 
 export const Route = createFileRoute("/ormawa")({
   head: () => ({
@@ -46,55 +49,49 @@ const ORGS = [
     desc: "Badan Eksekutif Mahasiswa, motor utama kegiatan dan advokasi mahasiswa tingkat institusi." 
   },
   { name: "BEM FIKES", 
-    initial: "DPM",
+    initial: "BEM",
     logo: bemIkkhg,
     type: "Ormawa", 
     desc: "Badan Eksekutif Mahasiswa, motor utama kegiatan dan advokasi mahasiswa tingkat fakultas."
   },
   { name: "BEM FIKK", 
-    initial: "DPM", 
+    initial: "BEM", 
     logo: bemIkkhg,
     type: "Ormawa", 
     desc: "Badan Eksekutif Mahasiswa, motor utama kegiatan dan advokasi mahasiswa tingkat fakultas." 
   },
-  { name: "FORMA Keperawatan", 
+  { name: "HIMA Keperawatan", 
     initial: "HMK", 
     logo: formaKep,
     type: "Himpunan", 
-    desc: "Forum Mahasiswa Keperawatan."
+    desc: "Himpunan Mahasiswa Keperawatan."
    },
-  { name: "KEMA Keperawatan", 
-    initial: "HMB", 
-    logo: kemaPerawat,
-    type: "Himpunan", 
-    desc: "Keluarga Mahasiswa Keperawatan."
-  },
   { name: "HIMA TLM", 
-    initial: "SEN", 
+    initial: "HMK", 
     logo: himaTlm,
-    type: "UKM", 
+    type: "Himpunan", 
     desc: "Himpunan Mahasiswa Teknologi Laboratorium Medis" 
   },
   { name: "HIMA FARMASI", 
-    initial: "OR", 
+    initial: "HMK", 
     logo: himaFarmasi,
     type: "UKM", 
     desc: "Himpunan Mahasiswa Farmasi." 
   },
   { name: "HIMA KEBIDANAN", 
-    initial: "OR", 
+    initial: "HMK", 
     logo: himaBidan,
-    type: "UKM", 
+    type: "Himpunan", 
     desc: "Himpunan Mahasiswa Kebidanan." 
   },
   { name: "UKM KSR / PMI", 
-    initial: ksr, 
+    initial: "KSR", 
     logo: ksr,
     type: "UKM", 
     desc: "Korps Sukarela: kesiapsiagaan bencana dan donor darah."
   },
   { name: "UKM UPM", 
-    initial: "PRA", 
+    initial: "UPM", 
     logo: upm,
     type: "UKM", 
     desc: "Racana kampus, kepemimpinan, dan pengabdian masyarakat." 
@@ -106,34 +103,58 @@ const ORGS = [
     desc: "Kajian keislaman, kajian rutin, dan kegiatan sosial keagamaan."
   },
   { name: "Forum Ilmiah Mahasiswa ", 
-    initial: "UKM", 
+    initial: "FIM", 
     logo: forumIlmiah,
     type: "UKM", 
     desc: "Forum Ilmiah Mahasiswa" 
   },
   { name: "UKM Volly", 
-    initial: "PRA",
+    initial: "VOL",
     logo: volly, 
     type: "UKM", 
-    desc: "Unit kegitan mahasiswa bola volly" 
+    desc: "Unit kegitan mahasiswa Cabang olahraga Volly" 
   },
   { name: "UKM Badminton", 
-    initial: "PRA", 
+    initial: "BAD", 
     logo: badminton,
     type: "UKM", 
-    desc: "Unit kegitan mahasiswa badminton" 
+    desc: "Unit kegitan mahasiswa Cabang olahraga Badminton" 
   },
   { name: "UKM Tenis Meja", 
-    initial: "PRA", 
+    initial: "TEJA", 
     logo: tenisMeja,
     type: "UKM", 
-    desc: "Unit kegitan mahasiswa tenis meja" 
+    desc: "Unit kegitan mahasiswa Cabang olahraga Tenis meja" 
   },
   { name: "UKM LIMPA", 
-    initial: "PRA", 
+    initial: "LIMPA", 
     logo: limpa,
     type: "UKM", 
     desc: "Unit kegitan mahasiswa pecinta alam" 
+  },
+  { name: "UKM Basket", 
+    initial: "basket", 
+    logo: basket,
+    type: "UKM", 
+    desc: "Unit kegitan mahasiswa Cabang olahraga Basket" 
+  },
+  { name: "UKM Futsal", 
+    initial: "futsal", 
+    logo: futsal,
+    type: "UKM", 
+    desc: "Unit kegitan mahasiswa Cabang olahraga Futsal" 
+  },
+  { name: "UKM Muaythai", 
+    initial: "muay", 
+    logo: muaythai,
+    type: "UKM", 
+    desc: "Unit kegitan mahasiswa Cabang olahraga Muaythai" 
+  },
+  { name: "UKM Protokoler", 
+    initial: "proto", 
+    logo: protokoler,
+    type: "UKM", 
+    desc: "Unit Kegiatan Mahasiswa yang berfokus pada pelatihan dan praktik tata aturan acara resmi." 
   },
 ];
 
